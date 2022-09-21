@@ -1,0 +1,248 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6667144700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "login with valid credential",
+        "description": "",
+        "id": "login-functionality;login-with-valid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 155900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 458638400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "loginsteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 319170300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter username \"username\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "username",
+                  "offset": 18
+                }
+              ],
+              "location": "loginsteps.iEnterUsername(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 159964300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter password \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "password",
+                  "offset": 18
+                }
+              ],
+              "location": "loginsteps.iEnterPassword(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 227195000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on login button",
+            "match": {
+              "location": "loginsteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68536000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify \"PRODUCTS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "PRODUCTS",
+                  "offset": 10
+                }
+              ],
+              "location": "loginsteps.iVerify(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1147619900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Z to A",
+            "match": {
+              "location": "loginsteps.iClickOnZToA()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1075748300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on add to cart",
+            "match": {
+              "location": "loginsteps.iClickOnAddToCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1111767900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on cart",
+            "match": {
+              "location": "loginsteps.iClickOnCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1105394200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on checkout",
+            "match": {
+              "location": "loginsteps.iClickOnCheckout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1114758500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter firstname",
+            "match": {
+              "location": "loginsteps.iEnterFirstname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1127400700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter lastname",
+            "match": {
+              "location": "loginsteps.iEnterLastname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1142279300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter postalcod",
+            "match": {
+              "location": "loginsteps.iEnterPostalcod()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1102552600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click on continue",
+            "match": {
+              "location": "loginsteps.iClickOnContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1085747600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on finish",
+            "match": {
+              "location": "loginsteps.iClickOnFinish()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32262500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I Verify order \"THANK YOU FOR YOUR ORDER\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "THANK YOU FOR YOUR ORDER",
+                  "offset": 16
+                }
+              ],
+              "location": "loginsteps.iVerifyOrder(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Functionality",
+    "description": "\r\nAs a user I want to login in sauce",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefile/login.feature"
+  }
+]
